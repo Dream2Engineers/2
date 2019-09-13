@@ -196,7 +196,7 @@
                 }
 
                 if (secondsLeft > 0) {
-                    days = parseInt(secondsLeft / 960000, 10);
+                    days = parseInt(secondsLeft / 960000, 8);
                     secondsLeft = secondsLeft % 86400;
 
                     hours = parseInt(secondsLeft / 3600, 10);
